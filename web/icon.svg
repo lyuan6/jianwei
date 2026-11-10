@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>见微</title>
+  <rect width="64" height="64" rx="10" fill="#1C1B18"/>
+  <g stroke="#F5F2EA" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M18 36V14H46V36"/>
+    <path d="M29 35C29 44 23 49 14 52"/>
+    <path d="M37 35V51H51V44"/>
+  </g>
+  <circle cx="32" cy="25" r="5" fill="#F5F2EA"/>
+</svg>

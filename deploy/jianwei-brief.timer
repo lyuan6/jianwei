@@ -1,0 +1,9 @@
+[Unit]
+Description=Jianwei weekday morning brief
+
+[Timer]
+OnCalendar=Mon..Fri 08:30 Asia/Shanghai
+Unit=jianwei-brief.service
+
+[Install]
+WantedBy=timers.target

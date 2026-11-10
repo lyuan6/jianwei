@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>见微 · 晨报</title>
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="brief.css">
+<link rel="stylesheet" href="pages.css?v=3">
+<link rel="stylesheet" href="timeline.css?v=6">
+</head>
+<body>
+<section class="login" id="login" hidden>
+  <form class="login-box" id="login-form">
+    <h1 class="wm-name">见微</h1>
+    <label>用户名<input name="username" autocomplete="username" required maxlength="32"></label>
+    <label>密码<input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
+    <button class="btn btn-solid" type="submit">登录</button>
+    <p class="login-error" id="login-error" role="alert"></p>
+  </form>
+</section>
+<div class="app" id="app" hidden>
+  <aside class="rail" aria-label="导航">
+    <a class="wordmark" href="#brief"><span class="wm-name">见微</span></a>
+    <nav class="nav">
+      <a href="#brief" data-route="brief">晨报<span class="nav-count" id="nav-brief"></span></a>
+      <a href="#holdings" data-route="holdings">持仓<span class="nav-count" id="nav-holdings"></span></a>
+      <a href="#timeline" data-route="timeline">脉络</a>
+      <a href="#commitments" data-route="commitments">承诺<span class="nav-count" id="nav-commitments"></span></a>
+      <a href="#research" data-route="research">研究</a>
+    </nav>
+    <section class="rail-section">
+      <h2 class="rail-label">最近研究</h2>
+      <ul class="rail-list" id="recent"></ul>
+    </section>
+    <footer class="rail-foot">
+      <p class="rail-user" id="rail-user" hidden><span id="rail-user-name"></span><button class="textbtn" type="button" id="logout">退出</button></p>
+      <p>信息仅供参考，不构成投资建议。</p>
+    </footer>
+  </aside>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+<div class="scrim" id="scrim" data-close hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="个股详情"></aside>
+<script src="data.js"></script>
+<script src="ui.js"></script>
+<script src="brief.js?v=2"></script>
+<script src="pages.js?v=3"></script>
+<script src="industry.js"></script>
+<script src="layers.js?v=12"></script>
+<script src="timeline.js"></script>
+<script src="commitments.js?v=3"></script>
+<script src="api.js?v=5"></script>
+</body>
+</html>

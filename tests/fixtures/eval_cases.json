@@ -1,0 +1,256 @@
+[
+ {
+  "id": "unlock-1",
+  "code": "sz001391",
+  "type": "解禁",
+  "as_of": "2026-09-28",
+  "level": "high",
+  "rule": "解禁占流通股超过 5%",
+  "key_figures": [
+   "577215.2279万股",
+   "79.16%"
+  ],
+  "url": "https://data.eastmoney.com/dxf/q/001391.html"
+ },
+ {
+  "id": "unlock-2",
+  "code": "sz301303",
+  "type": "解禁",
+  "as_of": "2026-08-24",
+  "level": "high",
+  "rule": "解禁占流通股超过 5%",
+  "key_figures": [
+   "30660万股",
+   "67.54%"
+  ],
+  "url": "https://data.eastmoney.com/dxf/q/301303.html"
+ },
+ {
+  "id": "unlock-3",
+  "code": "sh603370",
+  "type": "解禁",
+  "as_of": "2026-09-07",
+  "level": "high",
+  "rule": "解禁占流通股超过 5%",
+  "key_figures": [
+   "4946.3703万股",
+   "58.57%"
+  ],
+  "url": "https://data.eastmoney.com/dxf/q/603370.html"
+ },
+ {
+  "id": "unlock-4",
+  "code": "sz300453",
+  "type": "解禁",
+  "as_of": "2026-08-31",
+  "level": "mid",
+  "rule": "规则未覆盖 5% 以下解禁，按留意",
+  "key_figures": [
+   "380.1825万股",
+   "1.04%"
+  ],
+  "url": "https://data.eastmoney.com/dxf/q/300453.html"
+ },
+ {
+  "id": "reduce-1",
+  "code": "sz003004",
+  "type": "减持",
+  "as_of": "2026-09-24",
+  "level": "high",
+  "rule": "控股股东减持超过 1%",
+  "key_figures": [
+   "89.25万股",
+   "1.3%"
+  ],
+  "url": "https://data.eastmoney.com/executive/gdzjc/003004.html"
+ },
+ {
+  "id": "reduce-2",
+  "code": "sh603619",
+  "type": "减持",
+  "as_of": "2026-08-27",
+  "level": "mid",
+  "rule": "其他增减持",
+  "key_figures": [
+   "1386.9万股",
+   "3%"
+  ],
+  "url": "https://data.eastmoney.com/executive/gdzjc/603619.html"
+ },
+ {
+  "id": "reduce-3",
+  "code": "sh600661",
+  "type": "减持",
+  "as_of": "2026-10-13",
+  "level": "mid",
+  "rule": "其他增减持",
+  "key_figures": [
+   "671.13万股",
+   "2.34%"
+  ],
+  "url": "https://data.eastmoney.com/executive/gdzjc/600661.html"
+ },
+ {
+  "id": "reduce-4",
+  "code": "sz002044",
+  "type": "减持",
+  "as_of": "2026-08-15",
+  "level": "mid",
+  "rule": "其他增减持",
+  "key_figures": [
+   "3200.5万股",
+   "374.59万股",
+   "0.83%"
+  ],
+  "url": "https://data.eastmoney.com/executive/gdzjc/002044.html"
+ },
+ {
+  "id": "forecast-1",
+  "code": "sh688597",
+  "type": "业绩预告",
+  "as_of": "2026-10-17",
+  "level": "high",
+  "rule": "首亏",
+  "key_figures": [
+   "-300.37%",
+   "-281.29%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/yjyg/688597.html"
+ },
+ {
+  "id": "forecast-2",
+  "code": "sh688410",
+  "type": "业绩预告",
+  "as_of": "2026-10-24",
+  "level": "mid",
+  "rule": "规则未覆盖预增，按财报同比变化超过 30%",
+  "key_figures": [
+   "44.23%",
+   "59.41%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/yjyg/688410.html"
+ },
+ {
+  "id": "forecast-3",
+  "code": "sh603991",
+  "type": "业绩预告",
+  "as_of": "2026-10-21",
+  "level": "mid",
+  "rule": "规则未覆盖扭亏，按财报同比变化超过 30%",
+  "key_figures": [
+   "1238.57%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/yjyg/603991.html"
+ },
+ {
+  "id": "financial-1",
+  "code": "sh601633",
+  "type": "财报",
+  "as_of": "2026-08-26",
+  "level": "mid",
+  "rule": "财报主要指标同比变化超过 30%",
+  "key_figures": [
+   "1021.01亿元",
+   "-61.11%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/601633.html"
+ },
+ {
+  "id": "financial-2",
+  "code": "sh601628",
+  "type": "财报",
+  "as_of": "2026-08-28",
+  "level": "mid",
+  "rule": "财报主要指标同比变化超过 30%",
+  "key_figures": [
+   "4343.07亿元",
+   "228.60%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/601628.html"
+ },
+ {
+  "id": "financial-3",
+  "code": "sh601398",
+  "type": "财报",
+  "as_of": "2026-08-29",
+  "level": "low",
+  "rule": "同比变化未超过 30%，例行披露",
+  "key_figures": [
+   "4658.59亿元",
+   "3.32%"
+  ],
+  "url": "https://data.eastmoney.com/bbsj/601398.html"
+ },
+ {
+  "id": "move-1",
+  "code": "sz301051",
+  "type": "股价异动",
+  "as_of": "2026-08-10",
+  "level": "mid",
+  "rule": "规则未覆盖有公告的异动，按涨跌超过 7%",
+  "key_figures": [
+   "30%"
+  ],
+  "url": "https://data.eastmoney.com/notices/detail/301051/AN202608101827817878.html",
+  "title": "信濠光电:关于股票交易异常波动的公告"
+ },
+ {
+  "id": "move-2",
+  "code": "sz301234",
+  "type": "股价异动",
+  "as_of": "2026-08-10",
+  "level": "mid",
+  "rule": "规则未覆盖有公告的异动，按涨跌超过 7%",
+  "key_figures": [
+   "30.22%"
+  ],
+  "url": "https://data.eastmoney.com/notices/detail/301234/AN202608101827813685.html",
+  "title": "五洲医疗:股票交易异常波动公告"
+ },
+ {
+  "id": "move-3",
+  "code": "sz000017",
+  "type": "股价异动",
+  "as_of": "2026-09-08",
+  "level": "mid",
+  "rule": "规则未覆盖有公告的异动，按涨跌超过 7%",
+  "key_figures": [
+   "20%"
+  ],
+  "url": "https://data.eastmoney.com/notices/detail/000017/AN202609071829106145.html",
+  "title": "深中华A:股票交易异常波动公告"
+ },
+ {
+  "id": "people-1",
+  "code": "sz300374",
+  "type": "人事",
+  "as_of": "2026-08-10",
+  "level": "low",
+  "rule": "人事变动",
+  "key_figures": [],
+  "url": "https://data.eastmoney.com/notices/detail/300374/AN202608101827808898.html",
+  "title": "中铁装配:关于公司董事长辞职的公告"
+ },
+ {
+  "id": "people-2",
+  "code": "sz300357",
+  "type": "人事",
+  "as_of": "2026-09-08",
+  "level": "low",
+  "rule": "人事变动",
+  "key_figures": [],
+  "url": "https://data.eastmoney.com/notices/detail/300357/AN202609081829137426.html",
+  "title": "我武生物:关于公司董事长辞职的公告"
+ },
+ {
+  "id": "people-3",
+  "code": "sz002320",
+  "type": "人事",
+  "as_of": "2026-09-08",
+  "level": "low",
+  "rule": "人事变动",
+  "key_figures": [],
+  "url": "https://data.eastmoney.com/notices/detail/002320/AN202609071829106557.html",
+  "title": "海峡股份:关于公司副总经理辞职的公告"
+ }
+]

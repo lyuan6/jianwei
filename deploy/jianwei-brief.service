@@ -1,0 +1,14 @@
+# Replace USER and the project path before installing alongside jianwei.service.
+[Unit]
+Description=Jianwei daily portfolio brief
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=USER
+WorkingDirectory=/home/USER/projects/ai-investment-research
+ExecStart=/home/USER/projects/ai-investment-research/.venv/bin/python -m scripts.daily_brief
+TimeoutStartSec=infinity
+NoNewPrivileges=true
+PrivateTmp=true
